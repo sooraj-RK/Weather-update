@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+        <span>+</span>
+        <div class="contents">These are the contents of this div</div>
+    </div>
+    <style>
+        wrapper {
+    display: inline-block;
+
+    height: 20px;
+    width: auto;
+  
+    padding:10px;
+  
+    background:#DDD;
+}
+
+.contents {
+    display:inline-block;
+  
+    width:0%;
+  
+    white-space:nowrap;
+    overflow:hidden;
+  
+    background:#c3c;
+}
+
+.wrapper:hover .contents {
+    -webkit-transition: width 1s ease-in-out;
+    -moz-transition: width 1s ease-in-out;
+    -o-transition: width 1s ease-in-out;
+    transition: width 1s ease-in-out;
+
+    width:100%;
+}
+    </style>
+    
+</body>
+</html>
