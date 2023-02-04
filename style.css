@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Exo:ital,wght@0,100;0,500;1,500&display=swap');
 
+
+
 #myVideo {
     position: fixed;
     z-index:-1;
@@ -31,15 +33,11 @@
   }
 
   .card{
-    width: 70px;
-    height: 120px;
+    
     opacity:0.5;
     animation-name: example;
     animation-duration: 10s;
     align-items: center;
-    border-radius: 50%;
-   
-    
     border-radius: 20%;
   }
   @keyframes example{

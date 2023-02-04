@@ -20,7 +20,7 @@ function displayData(weatherUpdate) {
     
   
     result.innerHTML =
-`<div class= card   text-center  style="width: 14rem;> 
+`<div class= card   text-center  style="width: 16rem;> 
   <img src="" class="card-img-top" alt="...">
   <div class="card-body">
     <h5 class="card-title">${placeName}</h5>
@@ -29,9 +29,11 @@ function displayData(weatherUpdate) {
   <ul class="list-group list-group-flush bg-transparent">
   <li class="list-group-item">Temperature: ${celsius}°C</li>
   <br>
-<li class="list-group-item">clouds:${description}</li>
-<li class="list-group-item"> wind speed:${wind}km/h</li>
-<li class="list-group-item">humidity:${humidity}%</li>
+<li class="list-group-item">Clouds:${description}</li>
+<br>
+<li class="list-group-item"> Wind speed:${wind}km/h</li>
+<br>
+<li class="list-group-item">Humidity:${humidity}%</li>
 
 </ul>
 </div>`
